@@ -1,0 +1,20 @@
+
+.container {
+    display: flex; /* Enables Flexbox */
+    width: 100%;
+}
+
+.left-column {
+    flex: 1; /* Makes this take up 1 part of the available space */
+    width: 20%;
+    border-radius: 15px 15px 15px 15px; /* Different rounding for each corner */
+    /* Add other styling as needed */
+}
+
+.right-column {
+    flex: 4; /* Makes this take up 4 parts of the available space (1:4 ratio) */
+    width: 80%;
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px; /* Different rounding for each corner */
+    /* Add other styling as needed */
+}
